@@ -1,0 +1,447 @@
+.table > thead > tr > td.info,
+.table > tbody > tr > td.info,
+.table > tfoot > tr > td.info,
+.table > thead > tr > th.info,
+.table > tbody > tr > th.info,
+.table > tfoot > tr > th.info,
+.table > thead > tr.info > td,
+.table > tbody > tr.info > td,
+.table > tfoot > tr.info > td,
+.table > thead > tr.info > th,
+.table > tbody > tr.info > th,
+.table > tfoot > tr.info > th {
+  background: #191412;
+  border-radius: 0 0 15px 15px; }
+
+.personnel-index .infoContact {
+  background: #999265;
+  border: none;
+  color: black; }
+
+.container {
+  font-size: 11px; }
+
+.form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.button, .zakazSearch .zakaz-search button {
+  outline: none;
+  color: #999265;
+  background: #302927; }
+
+.divWork {
+  background: #302927; }
+
+.srok {
+  text-transform: capitalize; }
+
+.headerTable {
+  display: none; }
+
+.titleCaption, .titleTable {
+  color: #736a50;
+  position: relative; }
+
+.titleTable {
+  font-size: 24px;
+  margin-top: 41px;
+  margin-bottom: 8px;
+  margin-left: 15px;
+  float: left; }
+  .titleTable:nth-of-type(3) {
+    float: none; }
+
+.zakazSearch {
+  height: 73px;
+  float: right; }
+  .zakazSearch .zakaz-search input {
+    position: relative;
+    top: 40px;
+    left: -56px;
+    height: 30px;
+    border-radius: 16px 0 0 19px;
+    background: #302927;
+    font-size: 11px;
+    border: 1px solid rgba(204, 198, 198, 0.6); }
+    .zakazSearch .zakaz-search input:focus {
+      background: rgba(204, 198, 198, 0.6);
+      color: #302927;
+      border: none; }
+  .zakazSearch .zakaz-search button {
+    margin-top: -5px;
+    height: 30px;
+    padding: 0 23px 0 13px;
+    margin-left: 98px;
+    border-radius: 0 16px 16px 0;
+    color: rgba(204, 198, 198, 0.6);
+    background: #3a3331;
+    border: 1px solid rgba(204, 198, 198, 0.6);
+    border-left: 1px solid #3a3331; }
+    .zakazSearch .zakaz-search button:hover {
+      background: #802c2c;
+      border-bottom: 1px solid #802c2c;
+      border-top: 1px solid #802c2c;
+      border-right: 1px solid #802c2c;
+      color: #fff; }
+
+.border-left {
+  width: 10px;
+  border-radius: 19px 0px 0px 19px;
+  border: none; }
+
+.border-right {
+  width: 90px;
+  border-radius: 0px 19px 18px 0px;
+  border: none; }
+
+.tr10 {
+  width: 10px; }
+
+.tr20 {
+  width: 20px; }
+
+.tr25 {
+  width: 25px; }
+
+.tr50 {
+  width: 50px; }
+
+.tr70 {
+  width: 70px; }
+
+.tr90 {
+  width: 90px; }
+
+.tr100 {
+  width: 100px; }
+
+.tr180 {
+  width: 137px; }
+
+.tr202 {
+  width: 159px; }
+
+.header {
+  display: none; }
+
+.trBorder {
+  border: none; }
+
+.position {
+  position: relative; }
+
+.bold {
+  font-weight: 700; }
+
+.italic {
+  font-weight: 100; }
+
+.table .trTablePass {
+  background: #802c2c; }
+
+.table thead {
+  background: #302927; }
+
+.table .trNew {
+  font-weight: bold;
+  color: #191412; }
+
+.reminder {
+  position: relative;
+  top: -104px;
+  clear: both; }
+
+.grid-view td {
+  white-space: inherit; }
+
+.fa-red {
+  color: #CC0000;
+  font-size: 10px; }
+
+.fa-ping {
+  color: #FF9999;
+  font-size: 10px; }
+
+.anketaZakaz {
+  color: rgba(204, 198, 198, 0.6);
+  padding-left: 23px;
+  margin-top: 1px;
+  width: 100px; }
+  .anketaZakaz div {
+    margin-bottom: 7px; }
+    .anketaZakaz div:nth-of-type(4) {
+      margin-top: -7px; }
+    .anketaZakaz div:nth-of-type(5) {
+      margin-top: -7px; }
+  .anketaZakaz .anketaZakaz_from {
+    font-weight: 900;
+    color: #3a3331; }
+
+.linePrice {
+  margin-top: 13px;
+  border-bottom: 1px solid rgba(48, 41, 39, 0.3);
+  position: relative;
+  left: -18px;
+  top: -10px;
+  width: 228px; }
+
+.responsible {
+  color: rgba(204, 198, 198, 0.6);
+  margin-top: 1px;
+  padding-left: 15px;
+  float: right;
+  width: 254px; }
+  .responsible a:hover {
+    text-decoration: none; }
+  .responsible .responsible_person {
+    font-weight: 900;
+    color: #3a3331;
+    margin-left: -1px;
+    margin-right: 20px; }
+  .responsible .namePrice:nth-of-type(1) {
+    margin-right: 7px;
+    position: relative;
+    left: -19px; }
+  .responsible .namePrice:nth-of-type(3) {
+    margin-left: 12px; }
+  .responsible .price {
+    font-weight: 100;
+    color: rgba(204, 198, 198, 0.6);
+    margin-right: 0;
+    margin-left: 36px;
+    float: left; }
+    .responsible .price:nth-of-type(1) {
+      margin-left: 18px; }
+    .responsible .price:nth-of-type(2) {
+      margin-left: 64px; }
+    .responsible .price:nth-of-type(3) {
+      margin-right: 27px;
+      margin-left: 0;
+      float: right; }
+  .responsible .statusZakaz {
+    width: 155px;
+    top: -15px;
+    left: 64px;
+    position: relative;
+    font-size: 15px;
+    background: #446505;
+    font-weight: bold;
+    color: white;
+    text-align: center; }
+  .responsible .declined {
+    background: #7c1111; }
+  .responsible .declinedIspol {
+    background: #7c1111;
+    margin-top: 15px; }
+  .responsible .declinedIspol_div {
+    width: 155px; }
+  .responsible .declined_div {
+    width: 155px;
+    position: relative;
+    left: 63px;
+    top: -1px; }
+
+.zakazFile {
+  color: rgba(204, 198, 198, 0.6);
+  padding-left: 20px;
+  margin-top: 1px;
+  width: 52px; }
+  .zakazFile div {
+    margin-left: -28px; }
+    .zakazFile div .zakazFile_block-number {
+      font-weight: 900;
+      color: #3a3331; }
+    .zakazFile div div {
+      text-align: right;
+      width: 69px; }
+
+table {
+  color: #ccc6c6; }
+
+thead {
+  border: 1px solid #302927; }
+
+thead a {
+  color: #302927; }
+
+.table-bordered > thead > tr > th {
+  border: none; }
+
+.table tbody > tr {
+  border: 1px solid #302927; }
+.table .textTr {
+  color: rgba(204, 198, 198, 0.6); }
+
+.table-bordered tbody tr td {
+  border: none;
+  border-bottom: none; }
+.table-bordered tbody tr .zakaz-view-kartik {
+  border-bottom: none;
+  color: rgba(204, 198, 198, 0.6); }
+.table-bordered tbody tr .zakazInfo {
+  margin-top: 1px;
+  /* Track */
+  /* Handle */ }
+  .table-bordered tbody tr .zakazInfo .divInform {
+    overflow-y: auto;
+    height: 133px;
+    background: #736a50;
+    color: #191412;
+    border-radius: 8px;
+    padding: 5px 18px 0 17px;
+    border-top: 4px solid #736a50;
+    border-right: 4px solid #736a50;
+    border-left: 1px solid #736a50;
+    border-bottom: 14px solid #736a50; }
+  .table-bordered tbody tr .zakazInfo .comment-zakaz {
+    overflow-y: auto;
+    height: 75px;
+    margin-top: 5px;
+    color: #3a3331;
+    background: #191412;
+    border-radius: 8px;
+    padding: 9px 18px 0 17px;
+    border-left: 0 solid #191412;
+    border-top: 0 solid #191412;
+    border-right: 3px solid #191412;
+    border-bottom: 27px solid #191412; }
+  .table-bordered tbody tr .zakazInfo .nextComment {
+    cursor: pointer; }
+  .table-bordered tbody tr .zakazInfo .CommentForm {
+    visibility: hidden; }
+  .table-bordered tbody tr .zakazInfo .CommentForm-visible {
+    visibility: visible; }
+  .table-bordered tbody tr .zakazInfo ::-webkit-scrollbar {
+    width: 4px; }
+  .table-bordered tbody tr .zakazInfo ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px; }
+  .table-bordered tbody tr .zakazInfo ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #3a3331;
+    -webkit-box-shadow: inset 0 0 5px #3a3331; }
+  .table-bordered tbody tr .zakazInfo ::-webkit-scrollbar-thumb:window-inactive {
+    background: #3a3331; }
+.table-bordered tbody tr .detail-view {
+  background-color: #191412; }
+  .table-bordered tbody tr .detail-view .trMaket {
+    color: black;
+    border: none; }
+    .table-bordered tbody tr .detail-view .trMaket .maket {
+      margin-top: 44px; }
+    .table-bordered tbody tr .detail-view .trMaket .imgZakaz {
+      font-size: 18px;
+      height: 39px;
+      width: 39px;
+      text-align: center;
+      border-radius: 4px;
+      padding-top: 11px;
+      background: #302927;
+      color: #736a50;
+      margin-top: -5px;
+      margin-left: -33px; }
+      .table-bordered tbody tr .detail-view .trMaket .imgZakaz:hover {
+        color: #302927;
+        background: #736a50; }
+    .table-bordered tbody tr .detail-view .trMaket .maketView {
+      margin-top: 4px;
+      margin-left: -33px; }
+
+.tableSize {
+  font-size: 11px; }
+
+.summary {
+  display: none; }
+
+.borderSrok {
+  border-bottom: 1px solid #000; }
+
+.table-bordered > tbody .trTable {
+  border-bottom: 1px solid #423836; }
+.table-bordered > tbody .trSrok:hover {
+  background: #3c3432; }
+.table-bordered > tbody .trNormal:hover {
+  background: #3c3432; }
+
+.footerView {
+  border-top: 1px solid rgba(48, 41, 39, 0.3);
+  width: 95.5%;
+  margin-left: 22px;
+  position: relative;
+  top: -28px; }
+
+.footer-view-zakaz {
+  margin-top: -22px; }
+
+.zakaz-index .detail-view tbody {
+  background: #191412; }
+.zakaz-index .success-ispol {
+  color: #446505; }
+.zakaz-index .userCommit {
+  width: 62px;
+  float: left;
+  text-align: left;
+  padding-right: 10px; }
+.zakaz-index .comment {
+  width: 443px;
+  float: left;
+  color: #505050; }
+.zakaz-index .dateCommit {
+  float: right; }
+
+.zakaz-shop .zakazSearch .shopSearch {
+  margin-top: -45px;
+  margin-left: 158px;
+  font-size: 11px; }
+.zakaz-shop .zakazSearch input {
+  left: 5px;
+  width: 168px; }
+.zakaz-shop .shopZakaz {
+  margin-top: 1px; }
+.zakaz-shop .zakazFile .table {
+  background: #191412; }
+
+.shipping {
+  color: #191412;
+  font-weight: 700;
+  margin-right: 4px; }
+
+.footerNav {
+  margin-top: 27px;
+  font-size: 24px; }
+  .footerNav a {
+    width: 135px;
+    border-radius: 26px;
+    font-size: 18px;
+    color: #736a50;
+    background: #3a3331;
+    outline: 0;
+    position: relative;
+    text-align: center;
+    top: 40px;
+    left: 15px;
+    line-height: 12px;
+    border: none; }
+
+.nav > li > a:hover, .nav > li > a:focus {
+  background: #191412; }
+
+.nav-pills > li > a {
+  border-radius: 26px; }
+
+.todoist-index .form-appoint {
+  display: none; }
+.todoist-index .visible {
+  display: block; }
+
+.manager-index .statics {
+  position: fixed;
+  right: 10px;
+  height: 100%;
+  padding: 10px; }
+
+/*# sourceMappingURL=gridview.css.map */

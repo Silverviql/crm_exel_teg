@@ -1,0 +1,9 @@
+class_name: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver:
+#            url: http://localhost:8080
+             url: http://crm/
+            browser: firefox
+        - Yii2:
+            part: init

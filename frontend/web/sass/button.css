@@ -1,0 +1,274 @@
+.text-orange {
+  color: #f0ad4e; }
+
+.helpdesk-index a {
+  padding-left: 16px;
+  text-decoration: none; }
+  .helpdesk-index a:hover {
+    color: white; }
+
+.commentButton {
+  padding-left: 13px;
+  padding-right: 13px;
+  float: right;
+  margin-top: -10px;
+  margin-right: 18px;
+  font-size: 11px;
+  background: #3a3331;
+  border-radius: 26px;
+  color: #736a50; }
+
+.buttonAdd {
+  border-radius: 68px;
+  width: 74px;
+  height: 74px;
+  line-height: 2px;
+  font-size: 46px;
+  box-shadow: 5px 6px 20px 0 rgba(2, 2, 2, 0.48);
+  color: #fff;
+  background: #a90329;
+  background: -moz-radial-gradient(center, ellipse cover, #a90329 34%, #8f0222 67%, #6d0019 98%);
+  background: -webkit-radial-gradient(center, ellipse cover, #a90329 34%, #8f0222 67%, #6d0019 98%);
+  background: radial-gradient(ellipse at right top, #9e1818 34%, #791010 67%, #882828 98%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=1 );
+  border: 5px solid rgba(72, 26, 26, 0.51); }
+  .buttonAdd:hover .buttonAdd:focus {
+    background: #791010;
+    color: #fff; }
+  .buttonAdd .caret {
+    display: none; }
+
+.btn-group {
+  position: fixed;
+  top: 85%;
+  z-index: 1;
+  float: right;
+  left: 86%; }
+  .btn-group .dropdown-menu {
+    top: -103px;
+    left: -27px;
+    font-size: 11px;
+    background: #302927;
+    min-width: 92px;
+    border: 2px solid rgba(204, 198, 198, 0.6);
+    border-radius: 9px; }
+    .btn-group .dropdown-menu .divider {
+      margin: 0 0 0 10px;
+      background: rgba(255, 255, 255, 0.07);
+      width: 64px; }
+    .btn-group .dropdown-menu .dropdown-header {
+      padding: 0.4px 0; }
+    .btn-group .dropdown-menu a {
+      color: rgba(204, 198, 198, 0.6); }
+      .btn-group .dropdown-menu a:hover {
+        border-radius: 12px;
+        margin: 0 8px 0 7px;
+        padding: 3px 0 3px 13px;
+        background-color: #191412;
+        color: #736a50; }
+
+.zakaz-form {
+  height: 30px;
+  line-height: 25px;
+  padding-left: 20px; }
+  .zakaz-form .kv-file-content i {
+    font-size: 30px; }
+  .zakaz-form .file-actions-cell {
+    display: none; }
+  .zakaz-form .file-preview {
+    padding: 0; }
+  .zakaz-form .submitZakazForm {
+    float: right;
+    margin-top: -76px;
+    margin-right: 185px; }
+    .zakaz-form .submitZakazForm button {
+      width: 111px; }
+
+#modalFile .zakaz-upload .fileInput {
+  height: 30px;
+  line-height: 25px;
+  padding-left: 20px;
+  text-align: center; }
+#modalFile .zakaz-upload .submitFile {
+  height: 30px;
+  line-height: 25px;
+  padding-left: 20px;
+  width: 100%; }
+
+.action {
+  padding-left: 13px;
+  padding-right: 13px;
+  font-size: 11px;
+  border: none;
+  background: #3a3331;
+  border-radius: 26px;
+  color: #736a50;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  text-decoration: none;
+  outline: 0; }
+  .action:hover {
+    background: #736a50;
+    color: #3a3331; }
+
+.actionCancel {
+  width: 78px;
+  position: relative;
+  left: 66px;
+  top: -1px; }
+  .actionCancel:hover {
+    background: #802c2c;
+    color: white; }
+
+.actionApprove {
+  left: 64px;
+  top: -1px;
+  width: 79px;
+  position: relative; }
+  .actionApprove:hover {
+    border: none;
+    background: #446505;
+    color: white; }
+
+.success {
+  left: 64px;
+  top: -1px;
+  width: 79px;
+  position: relative; }
+  .success:hover {
+    border: none;
+    background: #446505;
+    color: white; }
+
+.cancelButton {
+  width: 78px;
+  position: relative;
+  left: 66px;
+  top: -1px; }
+  .cancelButton:hover {
+    background: #802c2c;
+    color: white; }
+
+.appoint {
+  top: -16px;
+  left: 139px; }
+
+.todoist {
+  margin-left: 111px; }
+
+.zakaz-index .modalDisain {
+  float: right; }
+
+.ispolShop a {
+  color: #446505;
+  text-decoration: none; }
+
+.courier-shipping .declined a {
+  color: #802c2c;
+  text-decoration: none; }
+  .courier-shipping .declined a:hover {
+    text-decoration: none;
+    color: #802c2c; }
+
+.courier-index a, .custom-index a, .helpdesk-index a {
+  color: #446505;
+  text-decoration: none; }
+.courier-index .declinedHelp, .custom-index .declinedHelp, .helpdesk-index .declinedHelp {
+  color: #802c2c;
+  text-decoration: none; }
+  .courier-index .declinedHelp:hover, .custom-index .declinedHelp:hover, .helpdesk-index .declinedHelp:hover {
+    text-decoration: none;
+    color: #802c2c; }
+.courier-index .declined, .custom-index .declined, .helpdesk-index .declined {
+  color: #802c2c;
+  text-decoration: none; }
+  .courier-index .declined:hover, .custom-index .declined:hover, .helpdesk-index .declined:hover {
+    text-decoration: none;
+    color: #802c2c; }
+.courier-index .successHelp, .custom-index .successHelp, .helpdesk-index .successHelp {
+  color: #446505; }
+
+.notification {
+  float: right;
+  position: relative;
+  right: 100px;
+  top: -32px; }
+  .notification .notification-icon {
+    background: #3a3331;
+    padding: 8px;
+    border-radius: 19px;
+    font-size: 13px;
+    padding-bottom: 3px;
+    cursor: pointer; }
+  .notification .newNotification {
+    color: green; }
+
+.footer-view-zakaz .done:hover {
+  border: none;
+  background: #446505;
+  color: white; }
+.footer-view-zakaz a {
+  padding-left: 13px;
+  padding-right: 13px;
+  float: right;
+  margin-top: -10px;
+  margin-right: 18px;
+  font-size: 11px;
+  background: #3a3331;
+  border-radius: 26px;
+  color: #736a50;
+  background: none;
+  border: 1px solid #3a3331;
+  color: #3a3331;
+  margin-top: 1px;
+  float: none; }
+  .footer-view-zakaz a:hover {
+    color: #3a3331;
+    background: #736a50; }
+  .footer-view-zakaz a:hover {
+    text-decoration: none;
+    outline: 0;
+    color: #191412;
+    background: #3a3331; }
+
+.zakaz-shippingForm button {
+  height: 30px;
+  margin-left: 15px;
+  position: relative;
+  top: -43px;
+  left: 211px;
+  outline: 0; }
+
+.modal-content a {
+  height: 30px; }
+.modal-content .fulfilled {
+  width: 64%;
+  margin-left: 11px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 146px;
+  padding-left: 130px;
+  text-decoration: none; }
+
+.accept {
+  color: #446505;
+  text-decoration: none; }
+  .accept:hover {
+    text-decoration: none;
+    color: #446505; }
+
+.declined {
+  color: #802c2c;
+  text-decoration: none; }
+  .declined:hover {
+    text-decoration: none;
+    color: #802c2c; }
+
+.declinedTodoist {
+  color: #802c2c;
+  text-decoration: none; }
+  .declinedTodoist:hover {
+    text-decoration: none;
+    color: #802c2c; }
+
+/*# sourceMappingURL=button.css.map */

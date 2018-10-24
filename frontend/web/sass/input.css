@@ -1,0 +1,148 @@
+#login-form input {
+  padding-left: 5%; }
+
+#autsors {
+  display: none; }
+
+.form-group input {
+  border-radius: 26px;
+  font-size: 11px;
+  height: 26px;
+  color: #000;
+  background: #736a50;
+  border: none;
+  outline: 0; }
+  .form-group input::-webkit-inner-spin-button {
+    display: none; }
+  .form-group input::-webkit-input-placeholder {
+    color: #191412;
+    text-indent: 0;
+    transition: text-indent 0.3s ease; }
+  .form-group input:focus::-webkit-input-placeholder {
+    text-indent: 550px;
+    transition: text-indent 0.3s ease; }
+.form-group select {
+  outline: 0;
+  width: 86%;
+  padding-left: 3%;
+  background: #736a50;
+  border: none;
+  border-radius: 26px;
+  font-size: 11px;
+  border: none;
+  height: 26px;
+  color: #000; }
+.form-group textarea {
+  outline: 0;
+  width: 86%;
+  padding-left: 3%;
+  background: #736a50;
+  border: none;
+  color: #000;
+  font-size: 11px;
+  height: 66px; }
+  .form-group textarea::-webkit-input-placeholder {
+    color: #191412;
+    font-size: 11px; }
+.form-group .inputComment {
+  height: 31px; }
+.form-group .inputForm {
+  outline: 0;
+  width: 86%;
+  padding-left: 3%;
+  background: #736a50;
+  border: none; }
+.form-group .help-block {
+  color: rgba(171, 100, 24, 0.99); }
+
+.zakaz-shippingForm input {
+  width: 55%;
+  margin-left: 15px; }
+.zakaz-shippingForm .inputForm {
+  width: 38%; }
+.zakaz-shippingForm .help-block {
+  margin-left: 19px; }
+
+.zakaz-form .input-group-addon {
+  padding: 0 7px;
+  background: #736a50;
+  border: none;
+  color: #000; }
+.zakaz-form .inputWidget-form {
+  width: 82px;
+  padding-right: 7%; }
+.zakaz-form .inputWidget-contact {
+  padding-left: 7%; }
+.zakaz-form #zakaz-number {
+  padding-left: 9%;
+  margin-left: -48px; }
+.zakaz-form #zakaz-phone, .zakaz-form #zakaz-email {
+  width: 109px; }
+.zakaz-form #zakaz-sotrud_name {
+  width: 69%; }
+.zakaz-form #zakaz-name, .zakaz-form #zakaz-oplata, .zakaz-form #zakaz-fact_oplata {
+  padding-left: 7%; }
+.zakaz-form #zakaz-srok-disp {
+  width: 123px; }
+.zakaz-form .file-preview {
+  border: none; }
+  .zakaz-form .file-preview .close {
+    display: none; }
+  .zakaz-form .file-preview .file-actions-cell {
+    display: none; }
+  .zakaz-form .file-preview .file-footer-buttons {
+    display: none; }
+.zakaz-form button {
+  height: 30px; }
+.zakaz-form select {
+  width: 70%; }
+
+#acceptdModal select {
+  width: 64%;
+  margin-left: 11px;
+  height: 30px;
+  background: #736a50;
+  border: none; }
+#acceptdModal button {
+  float: right;
+  margin-top: -45px;
+  height: 30px;
+  width: 99px;
+  margin-right: 26px; }
+
+#declinedModal input {
+  width: 64%;
+  margin-left: 11px;
+  height: 30px;
+  background: #736a50;
+  border: none; }
+#declinedModal button {
+  float: right;
+  margin-top: -45px;
+  height: 30px;
+  width: 99px;
+  margin-right: 26px; }
+
+#modalFile .file-preview {
+  border: none; }
+  #modalFile .file-preview .close {
+    display: none; }
+  #modalFile .file-preview .file-actions-cell {
+    display: none; }
+  #modalFile .file-preview .file-footer-buttons {
+    display: none; }
+
+.datetimepicker {
+  margin-top: 19px; }
+  .datetimepicker table {
+    color: #000; }
+
+.modal-dialog h2 {
+  margin-left: 15px; }
+
+.moneyField {
+  width: 82px;
+  padding-right: 7%;
+  padding-right: 2%; }
+
+/*# sourceMappingURL=input.css.map */

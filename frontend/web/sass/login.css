@@ -1,0 +1,85 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  color: rgba(204, 198, 198, 0.6); }
+
+.headerLogin {
+  background: rgba(255, 255, 255, 0.04);
+  height: 126px;
+  margin-top: 32px;
+  padding: 18px 0px 0px 101px; }
+  .headerLogin h1 {
+    font-size: 28px;
+    font-weight: bold; }
+    .headerLogin h1 span {
+      color: #999265; }
+  .headerLogin p {
+    font-size: 13px;
+    margin-top: -8px; }
+
+.site-login .formLogin {
+  margin-top: 10%;
+  margin-left: 36%;
+  background: rgba(0, 0, 0, 0.16);
+  height: 284px;
+  padding-left: 48px;
+  padding-top: 42px;
+  border-radius: 16px; }
+  .site-login .formLogin .inputForm {
+    outline: 0;
+    width: 86%;
+    padding-left: 3%; }
+  .site-login .formLogin input {
+    border-radius: 26px;
+    font-size: 11px;
+    height: 26px;
+    color: #000; }
+  .site-login .formLogin p {
+    width: 193px;
+    padding-left: 10px;
+    padding-top: 3px;
+    font-size: 11px; }
+  .site-login .formLogin label {
+    color: rgba(204, 198, 198, 0.6);
+    font-size: 11px;
+    line-height: 33px;
+    position: relative;
+    top: -20px;
+    left: 79px; }
+  .site-login .formLogin button {
+    width: 204px;
+    border-radius: 26px;
+    font-size: 11px;
+    height: 30px;
+    font-size: 11px;
+    color: #999265;
+    background: #3a3331;
+    outline: 0;
+    position: relative;
+    top: -33px;
+    left: -5px;
+    border: none; }
+    .site-login .formLogin button:hover {
+      background: #191412; }
+.site-login .has-error .help-block {
+  color: rgba(171, 100, 24, 0.99); }
+.site-login .titleLogin {
+  text-align: center;
+  position: relative;
+  top: -23px;
+  left: -18px;
+  font-size: 27px;
+  font-weight: bold; }
+
+.footerLogin {
+  position: relative;
+  top: -15px;
+  text-align: center;
+  left: -22px;
+  line-height: 14px; }
+  .footerLogin img {
+    width: 49px;
+    height: 46px; }
+  .footerLogin div {
+    font-size: 11px; }
+
+/*# sourceMappingURL=login.css.map */

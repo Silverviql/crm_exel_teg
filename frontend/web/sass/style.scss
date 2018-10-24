@@ -1,0 +1,276 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//@import "compass/reset";
+@import "login";
+@import "gridview";
+@import "button";
+@import "modal";
+@import "input";
+@import "detailview";
+
+$display: none;
+$bodyBackground: #302927;
+$colorNavActiv: #736a50;
+$colorNavText: rgba(204, 198, 198, 0.6);
+$colorNavBadge: #3a3331;
+$colButtonHover: #191412;
+$greyCrayola: #908a89;
+
+@mixin border-bottom($color) {
+    border-bottom: 1px solid $color;
+}
+@mixin border-right($color) {
+    border-right: 1px solid $color;
+}
+@mixin border($color) {
+    border: 1px solid $color;
+}
+@mixin borFormZakaz($color){
+  height: 255px;
+  border-top: 1px solid $color;
+  border-bottom: 1px solid $color;
+}
+
+body{
+    background: $bodyBackground;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+.logout{
+    float: right;
+    font-size: $font-size;
+    background: $colorButton;
+    border-radius: $border-radius;
+    color: $colorH3;
+    position: relative;
+    left: -74px;
+    top: -30px;
+    height: 30px;
+    span{
+        padding-left: 9px;
+        font-size: 12px;
+    }
+    .exit{
+        color: $bacgrountTr;
+    }
+    &:hover{
+        color: $colorText;
+        text-decoration: $text-decoration;
+        background: $colButtonHover;
+    }
+}
+.wrap{
+    .logo{
+      background-image: url('../img/holland.png');
+      background-repeat: no-repeat;
+      background-position: 63px 15px;
+      background-size: 98px;
+      width: 168px;
+      height: 58px;
+      float: left;
+    }
+    .headerNav{
+        margin-top: -26px;
+        margin-left: 426px;
+        font-size: $font-size;
+        background: $colorButton;
+        border-radius: $border-radius;
+        color: $colorH3;
+        width: 506px;
+        height: 36px;
+        li{
+            a {
+              color: $colorText;
+              padding-right: 3px;
+              span {
+                color: $colorNavText;
+                background: $colorNavBadge;
+                padding-left: 1px;
+                font-size: 11px;
+                font-weight: 700;
+              }
+              &:hover {
+                color: $colorH3;
+                span {
+                  background: rgba(0,0,0,0);
+                }
+              }
+            }
+        }
+        .active{
+          a{
+            span{
+              color: $bodyBackground;
+              background: $colorNavActiv;
+              &:hover{
+                color: $bodyBackground;
+                background: rgba(0,0,0,0);
+              }
+            }
+          }
+        }
+    }
+    .container{
+      padding: 41px 15px 20px;
+    }
+    .nav-pills > li.active > a{
+        background-color: $colorH3;
+        color: $bodyBackground;
+    }
+}
+.titleMain{
+    font-size: 27px;
+    font-weight: 700;
+    color: rgba(204, 198, 198, 0.6);
+    margin-top: 19px;
+    margin-left: 181px;
+    position: relative;
+    top: 14px;
+}
+.notification-container{
+  position: absolute;
+  width: 246px;
+  top: 32px;
+  height: 200px;
+  float: right;
+  z-index: 2;
+  background: $colorNavBadge;
+  padding: 6px;
+  font-size: 14px;
+  text-align: left;
+  .notification-container_message{
+    height: 170px;
+    overflow: auto;
+  }
+  .notification-all{
+    position: absolute;
+    top: 179px;
+    width: 222px;
+    text-align: center;
+    cursor: pointer;
+  }
+  a{
+    color: #908a89;
+    text-decoration: none;
+  }
+}
+.notification-container .hidden{
+    display: $display;
+}
+.notification-content{
+    height: 169px;
+    overflow: auto;
+}
+
+.notification-index{
+  .notification-info{
+    .notification-info_filter{
+      margin-bottom: 10px;
+    }
+    a{
+      color: $greyCrayola;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+}
+.zakaz-form{
+  h3{
+    color: $colorH3;
+  }
+  .informationZakaz{
+    margin-left: 94px;
+    @include borFormZakaz($colorH3);
+    h3{
+      padding-left: 16px;
+    }
+    textarea{
+      width: 255px;
+    }
+  }
+  .clientZakaz{
+    margin-left: -76px;
+    @include borFormZakaz($colorH3);
+    h3{
+      padding-left: 18px;
+    }
+  }
+  .moneyZakaz{
+    margin-left: -42px;
+    @include borFormZakaz($colorH3);
+    h3{
+      padding-left: 12px;
+    }
+  }
+  .managmentZakaz{
+    margin-left: -60px;
+    @include borFormZakaz($colorH3);
+    h3{
+      padding-left: 12px;
+    }
+  }
+}
+.form-shiftEnd, .form-shiftStart{
+  display: none;
+}
+
+.visibleForm{
+  display: block;
+}
+
+.srokIndex{
+  tr{
+    td{
+      padding: 8px;
+    }
+  }
+}
+.post-view{
+  &:hover{
+    a{
+      text-decoration: none;
+    }
+  }
+  .guideImg{
+    width:350px;
+    height:200px;
+    margin-bottom: 17px;
+    overflow: hidden;
+    h3{
+      color: #ffffff;
+      margin-top: -180px;
+      position: absolute;
+    }
+    img{
+      transition: all 1s ease-out;
+      width:100%;
+      height:100%;
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+.zakaz-view{
+  .notice-block{
+    background: #736a50;
+    padding: 7px;
+    margin-bottom: 5px;
+  }
+  .notice-action{
+    font-style: italic;
+  }
+  .zakaz-view_comment{
+      height: 88px;
+      overflow: auto;
+  }
+  .notice-sotrud{
+    margin-right: 10px;
+  }
+  .zakaz-view_shipping{
+    height: 150px;
+  }
+}
